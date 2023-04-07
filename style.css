@@ -59,9 +59,11 @@ ul{
     }
 
 .nav-brand{
+    margin-top: 20px;
     margin-left: 50px;
-    width: 200px;
+    width: 10rem;
     border-radius: 100px;
+
 
 }
 /*¨NAV LEFT*/
@@ -71,10 +73,6 @@ ul{
 }
 .nav-main ul li{
     padding: 10px;
-}
-
-.abrir-menu{
-    display: none;
 }
 
 section{
@@ -100,21 +98,12 @@ section{
     color: black;
 }
 
-
-/* MEDIA QUERIES */
-
 @media screen and (max-width: 900px){
-    header{
-        display: flex;
-        flex-direction: column;
-        margin-left: 15%;
-    }
-    body{
-        background-image: url(img/jugadores2.jpg);
-        background-size: cover;
-    }
-    a{
-        color: black;
-    }
-    
+header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
 
+}

@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Anton', sans-serif;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url(img/degrade2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-size: 16px;
+    
+
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+ul{
+    list-style: none;
+}
+.container{
+    width: 90%;
+  
+}
+
+/* NAVIGATION */
+.nav-main{
+    font-size: 17px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0px 0;
+    margin-top: 100px;
+    }
+
+.nav-brand{
+    margin-left: 50px;
+    width: 200px;
+    border-radius: 100px;
+
+}
+/*¨NAV LEFT*/
+.nav-main ul{
+    display: flex;
+}
+.nav-main ul li{
+    padding: 10px;
+}
+
+section{
+    padding: 0 100px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.jugadores-históricos{
+    position: relative;
+    max-width: 600px;
+    padding: 50px;
+    background: rgba(255, 255, 255, .2);
+    box-shadow: 0 5px  15px rgba(0,0,0, .5);
+}
+
+.jugadores-históricos h1{
+    margin: 0 0 20px;
+    padding: 0;
+    font-size: 48px;
+    text-transform: uppercase;
+    color: black;
+}
